@@ -1,0 +1,15 @@
+{
+  "name": "tapsterbot",
+  "version": "1.0.0",
+  "description": "tapsterbot environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^2.1.0",
+    "keypress": "^0.2.1"
+  }
+}
