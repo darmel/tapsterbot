@@ -1,8 +1,8 @@
-var config = {}
+var config = {};
 
 //Side of end effector
 //~~Do not touch~~
-config.e = 34.64101615137754;  // Math.sqrt(3) * 10 * 2
+config.e = 34.64101615137754; // Math.sqrt(3) * 10 * 2
 
 //Side of top triangle
 //~~Do not touch~~
@@ -10,7 +10,7 @@ config.f = 110.85125168440814; // Math.sqrt(3) * 32 * 2
 
 //Length of parallelogram joint
 //~~Do not touch~~
-config.re = 153.5;             // 145 + 8.5
+config.re = 153.5; // 145 + 8.5
 
 //Length of upper joint
 //~~Do not touch~~
@@ -18,25 +18,25 @@ config.rf = 52.690131903421914; // Math.sqrt(52**2 + 8.5**2)
 
 //Input ranges for servos
 //~~Do not touch~~
-config.servo1 = {in_min: 0, in_max: 90};
-config.servo2 = {in_min: 0, in_max: 90};
-config.servo3 = {in_min: 0, in_max: 90};
+config.servo1 = { in_min: 0, in_max: 90 };
+config.servo2 = { in_min: 0, in_max: 90 };
+config.servo3 = { in_min: 0, in_max: 90 };
 
 //Default output ranges for servos
 //CHANGE THESE
-config.servo1.out_min = 12;
-config.servo1.out_max = 93;
-config.servo2.out_min = 8;
-config.servo2.out_max = 90;
-config.servo3.out_min = 14;
-config.servo3.out_max = 96;
+config.servo1.out_min = 0;
+config.servo1.out_max = 102;
+config.servo2.out_min = 2;
+config.servo2.out_max = 101;
+config.servo3.out_min = 8;
+config.servo3.out_max = 108;
 
 //Dimensions of the base plate
 config.baseHeight = 95;
 config.baseWidth = 80;
 
 //Default Z-Level of the pen
-config.penHeight = -140;
+config.penHeight = -190;
 
 //Default drawing height of the pen
 config.drawHeight = -152.75;
