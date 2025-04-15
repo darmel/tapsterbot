@@ -228,7 +228,7 @@ var steps = 5;
 var delay = config.delay / steps;
 var defaultEaseType = config.defaultEaseType;
 
-current = [0, 0, -190];
+current = [0, 0, -200];
 timer = 0;
 
 board.on("ready", function () {

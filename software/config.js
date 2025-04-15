@@ -24,22 +24,22 @@ config.servo3 = { in_min: 0, in_max: 90 };
 
 //Default output ranges for servos
 //CHANGE THESE
-config.servo1.out_min = 0;
-config.servo1.out_max = 102;
-config.servo2.out_min = 2;
-config.servo2.out_max = 101;
-config.servo3.out_min = 8;
-config.servo3.out_max = 108;
+config.servo1.out_min = 8;
+config.servo1.out_max = 111;
+config.servo2.out_min = 16;
+config.servo2.out_max = 119;
+config.servo3.out_min = 7;
+config.servo3.out_max = 102;
 
 //Dimensions of the base plate
 config.baseHeight = 95;
 config.baseWidth = 80;
 
 //Default Z-Level of the pen
-config.penHeight = -190;
+config.penHeight = -200;
 
 //Default drawing height of the pen
-config.drawHeight = -152.75;
+config.drawHeight = -195.75;
 
 //Delay for commands in SVGReader
 //Note that some commands will take longer than this

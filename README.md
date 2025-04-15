@@ -1,9 +1,9 @@
 ## Tapster - Mobile Automation Robot
 
-
 ![Tapsterbot](http://hugs.github.io/img/tapster-2-desk.jpg)
 
 ## Dependencies
+
 - Node.js
 - One Tapster robot
 
@@ -15,3 +15,7 @@
 4. Install the dependencies: `cd software; npm install`
 5. Start'er up: `node src/bot.js`
 6. Start moving: `go(0,0,-140)`
+
+## All the math around Tapster:
+
+- [The Delta Parallel Robot: Kinematics Solutions](https://people.ohio.edu/williams/html/PDF/DeltaKin.pdf)

@@ -1,4 +1,5 @@
 ## Go to any point:
+
     HTTP POST <robotURL>/go
 
     x: Center of circle, millimeters (Number, float)
@@ -6,11 +7,15 @@
     z: Center of circle, millimeters (Number, float)
 
     Example:
-    { x: 0,
-      y: 0,
-      z: -144 }
+
+{
+"x": 0,
+"y": 0,
+"z": -201
+}
 
 ## Draw a Circle:
+
     HTTP POST <robotURL>/circle
 
     x: Center of circle, millimeters (Number, float)
@@ -35,6 +40,7 @@
       rotations: 5 }
 
 ## Draw an Arc:
+
     HTTP POST <robotURL>/arc
 
     x: Center of circle, millimeters (Number, float)
